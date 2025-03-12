@@ -3,8 +3,7 @@
 **Foodit**은 음식 데이터를 관리하고 칼로리를 확인할 수 있는 웹 애플리케이션입니다. 사용자는 음식 이름과 칼로리를 입력하여 목록을 추가하고, 검색 및 정렬 기능을 활용하여 쉽게 관리할 수 있습니다.  
 
 ## 🖼️ 프로젝트 개요  
-![Foodit UI](![image](https://github.com/user-attachments/assets/3fbd7de4-4780-4e3a-887b-06e28f0dba0b)
-)  
+![Foodit UI](https://github.com/user-attachments/assets/3fbd7de4-4780-4e3a-887b-06e28f0dba0b)
 
 ## 🚀 주요 기능  
 - ✅ **음식 데이터 입력**: 음식 이름, 칼로리 정보를 입력하여 목록에 추가  
