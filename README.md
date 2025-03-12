@@ -1,12 +1,31 @@
-# React + Vite
+# 🍽️ Foodit  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Foodit**은 음식 데이터를 관리하고 칼로리를 확인할 수 있는 웹 애플리케이션입니다. 사용자는 음식 이름과 칼로리를 입력하여 목록을 추가하고, 검색 및 정렬 기능을 활용하여 쉽게 관리할 수 있습니다.  
 
-Currently, two official plugins are available:
+## 🖼️ 프로젝트 개요  
+![Foodit UI](./image.png)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 주요 기능  
+- ✅ **음식 데이터 입력**: 음식 이름, 칼로리 정보를 입력하여 목록에 추가  
+- 🔍 **검색 기능**: 등록된 음식 데이터를 검색 가능  
+- 📊 **정렬 기능**: 최신순 / 칼로리순 정렬  
+- ✏️ **수정 및 삭제**: 등록된 음식 정보를 수정 및 삭제 가능  
 
-## Expanding the ESLint configuration
+## 🛠️ 기술 스택  
+- **Frontend**: React.js (Vite 기반)  
+- **Backend**: Node.js (Express)  
+- **Database**: MongoDB  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 사용 방법  
+
+### 1️⃣ 프로젝트 클론 및 실행  
+```bash
+git clone https://github.com/YOUR_USERNAME/Foodit.git
+cd Foodit
+
+npm run install  # 의존성 설치
+npm run dev      # 개발 서버 실행
+npm run start    # 프로덕션 빌드 후 실행
+
+npm run build  # 배포용 빌드 생성
+npm run start  # 빌드 후 실행 (vite preview)
